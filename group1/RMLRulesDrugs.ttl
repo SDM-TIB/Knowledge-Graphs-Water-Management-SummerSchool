@@ -1,0 +1,232 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#>.
+@prefix fnml: <http://semweb.mmlab.be/ns/fnml#> .
+@prefix grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#> .
+@prefix fno: <https://w3id.org/function/ontology#> .
+@prefix idlab-fn: <http://example.com/idlab/function/> .
+@prefix sd: <http://www.w3.org/ns/sparql-service-description#> .
+@prefix l0:  <https://w3id.org/italia/onto/l0/> .
+@prefix tiapit:  <https://w3id.org/italia/onto/TI/> .
+@prefix clvapit:  <https://w3id.org/italia/onto/CLV/> .
+@prefix ispra-top: <https://w3id.org/italia/env/onto/top/> .
+@prefix ispra-plc: <https://w3id.org/italia/env/onto/place/> .
+@prefix hm: <https://w3id.org/whow/onto/health-monitoring/> .
+@prefix ispra-emf: <https://w3id.org/italia/env/onto/inspire-mf/>.
+@base <https://w3id.org/italia/lombardia/data/> .
+
+# #LogicalSourceDrugs
+<#LogicalSourceDrugs> a rml:BaseSource ;
+    rml:source "2mr3-henm.csv";
+    rml:referenceFormulation ql:CSV .
+
+###########################################################
+##                  MAPPING RULES
+##########################################################
+
+
+# #################################
+# ## DDD per ATC livello 1 INDICATOR MAPPING
+# #################################
+<#DDDMapping> a rr:TriplesMap ;
+rml:logicalSource <#LogicalSourceDrugs> ;
+rr:subjectMap [
+  fnml:functionValue [
+   rr:predicateObjectMap [
+     rr:predicate fno:executes ;
+     rr:objectMap [ rr:constant grel:array_join ]
+   ] ;
+   rr:predicateObjectMap [
+     rr:predicate grel:p_array_a ;
+     rr:objectMap  [ rr:constant "https://w3id.org/italia/lombardia/data/healthcare-indicator-calculation/ddd"]
+   ];
+   rr:predicateObjectMap [
+     rr:predicate grel:p_array_a ;
+     rr:objectMap  <#MD5DDD>
+   ];
+   rr:predicateObjectMap [
+     rr:predicate grel:p_string_sep ;
+     rr:objectMap [ rr:constant "-" ]
+   ]
+  ];
+  rr:class hm:DrugDistributionIndicatorCalculation
+  ] ;
+  rr:predicateObjectMap [
+    rr:predicate rdfs:label;
+    rr:objectMap [ rr:template "Indicatore dosi totali per singolo giorno con valore {ddd_per_atc_livello_1} - Classe d'età {fascia_eta}, sesso {genere}, ATC Livello 1: {descrizione_atc_livello_1}, Popolazione {popolazione}, Anno {anno}" ; rr:language "it" ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate hm:hasHealthcareIndicatorValue;
+    rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/value/{ddd_per_atc_livello_1}-adimensionale" ; rr:termType rr:IRI ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate hm:doneForHCIndicator;
+    rr:objectMap [ rr:constant "https://w3id.org/italia/lombardia/data/indicator/ddd" ; rr:termType rr:IRI ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ispra-top:hasLocation;
+    rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/location/{coordinata_geografica_x}-{coordinata_geografica_y}" ; rr:termType rr:IRI ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ispra-top:isIndicatorOf;
+    rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/health-agency/{codice_ats_residenza}" ; rr:termType rr:IRI ]
+  ];
+  rr:predicateObjectMap [
+    rr:predicate hm:ofClinicalCohort;
+    rr:objectMap <#URIClinicalCohort>
+  ];
+  rr:predicateObjectMap [
+    rr:predicate ispra-top:atTime , tiapit:hasTemporalCoverage;
+    rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/year/{anno}" ; rr:termType rr:IRI ]
+  ].
+
+##################################
+# Clinical Cohort URI for Ind. Cal.
+##################################
+<#URIClinicalCohort>
+  fnml:functionValue [
+     rr:predicateObjectMap [
+       rr:predicate fno:executes ;
+       rr:objectMap [ rr:constant grel:array_join ]
+     ] ;
+     rr:predicateObjectMap [
+       rr:predicate grel:p_array_a ;
+       rr:objectMap  [ rr:constant "https://w3id.org/italia/lombardia/data/clincal-cohort"]
+     ];
+     rr:predicateObjectMap [
+       rr:predicate grel:p_array_a ;
+       rr:objectMap  <#MD5ClinicalCohort>
+     ];
+     rr:predicateObjectMap [
+       rr:predicate grel:p_string_sep ;
+       rr:objectMap [ rr:constant "/" ]
+     ]
+    ].
+
+<#MD5DDD>
+fnml:functionValue [
+    rr:predicateObjectMap [
+     rr:predicate fno:executes ;
+     rr:objectMap [ rr:constant grel:string_md5 ]
+    ];
+    rr:predicateObjectMap [
+     rr:predicate grel:valueParameter ;
+     rr:objectMap <#ArrayJoin4DDD>
+    ]
+].
+
+<#ArrayJoin4DDD>
+fnml:functionValue [
+ rr:predicateObjectMap [
+   rr:predicate fno:executes ;
+   rr:objectMap [ rr:constant grel:array_join ]
+ ] ;
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "popolazione"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "anno"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "fascia_eta"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "genere"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "ddd_per_atc_livello_1"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "atc_livello_1"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "descrizione_atc_livello_1"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "descrizione_ats_residenza"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "codice_ats_residenza"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "coordinata_geografica_x"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "coordinata_geografica_y"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_string_sep ;
+   rr:objectMap [ rr:constant "" ]
+ ]
+] .
+
+<#MD5ClinicalCohort>
+fnml:functionValue [
+    rr:predicateObjectMap [
+     rr:predicate fno:executes ;
+     rr:objectMap [ rr:constant grel:string_md5 ]
+    ];
+    rr:predicateObjectMap [
+     rr:predicate grel:valueParameter ;
+     rr:objectMap <#arrayJoinClinicalCohort>
+    ]
+].
+
+<#arrayJoinClinicalCohort>
+fnml:functionValue [
+ rr:predicateObjectMap [
+   rr:predicate fno:executes ;
+   rr:objectMap [ rr:constant grel:array_join ]
+ ] ;
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "popolazione"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "anno"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "fascia_eta"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "genere"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "atc_livello_1"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "descrizione_atc_livello_1"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "descrizione_ats_residenza"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_array_a ;
+   rr:objectMap  [rml:reference "codice_ats_residenza"]
+ ];
+ rr:predicateObjectMap [
+   rr:predicate grel:p_string_sep ;
+   rr:objectMap [ rr:constant "" ]
+ ]
+] .  
