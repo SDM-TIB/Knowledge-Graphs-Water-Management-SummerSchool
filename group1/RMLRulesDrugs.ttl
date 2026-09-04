@@ -57,11 +57,11 @@ rr:subjectMap [
   ] ;
   rr:predicateObjectMap [
     rr:predicate rdfs:label;
-    rr:objectMap [ rr:template "Indicatore dosi totali per singolo giorno con valore {ddd_per_atc_livello_1} - Classe d'età {fascia_eta}, sesso {genere}, ATC Livello 1: {descrizione_atc_livello_1}, Popolazione {popolazione}, Anno {anno}" ; rr:language "it" ]
+    rr:objectMap [ rr:template "Indicatore dosi totali per singolo giorno con valore {ddd_per_atc_livello_1} - Classe d'età {fascia_eta}, sesso {genere}, ATC Livello 1: {descrizione_atc_livello_1}, Popolazione {popolazione}, Anno {anno}" ; rr:termType rr:Literal; rr:language "it" ]
   ];
   rr:predicateObjectMap [
     rr:predicate hm:hasHealthcareIndicatorValue;
-    rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/value/{ddd_per_atc_livello_1}-adimensionale" ; rr:termType rr:IRI ]
+    rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/value/{ddd_per_atc_livello_1}-adimensionale"]
   ];
   rr:predicateObjectMap [
     rr:predicate hm:doneForHCIndicator;
