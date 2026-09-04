@@ -982,7 +982,7 @@ fnml:functionValue [
 <#CityForRiverMapping> a rr:TriplesMap ;
 rml:logicalSource <#LogicalSourceCITYRDF> ;
 rr:subjectMap [
-  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID}-({starttime})" ;  rr:termType rr:IRI ;
+  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID}-({starttime})" ;
 ].
 
 # ##############################
@@ -992,7 +992,7 @@ rr:subjectMap [
 <#ProvinceForRiverMapping> a rr:TriplesMap ;
 rml:logicalSource <#LogicalSourcePROVINCERDF> ;
 rr:subjectMap [
-  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces/{ID}" ;  rr:termType rr:IRI ;
+  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces/{ID}" ;
 ].
 ###############################################################################
 ####################################

@@ -74,7 +74,7 @@
  ];
  rr:predicateObjectMap [
   rr:predicate w-mon:hasObservationSample ;
-  rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/water-sample/{id_campione}-{punto_prelievo}"; rr:termType rr:Literal ; rr:termType rr:IRI ]
+  rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/water-sample/{id_campione}-{punto_prelievo}"]
 ] ;
  rr:predicateObjectMap [
    rr:predicate w-mon:hasResult ;
@@ -86,7 +86,7 @@
  ] ;
  rr:predicateObjectMap [
     rr:predicate w-mon:hasChemicalSubstance ;
-    rr:objectMap [ rr:template "https://w3id.org/whow/controlled-vocabulary/chemical-substances/{codice_parametro}" ; rr:termType rr:IRI ]
+    rr:objectMap [ rr:template "https://w3id.org/whow/controlled-vocabulary/chemical-substances/{codice_parametro}"]
  ] ;
  rr:predicateObjectMap [
    rr:predicate tiapit:hasTemporalCoverage ;
@@ -339,11 +339,11 @@ rml:logicalSource <#LogicalSourceWatersForHumanConsumption>;
  ];
  rr:predicateObjectMap [
     rr:predicate rdfs:label ;
-    rr:objectMap [ rr:template "Water sample {id_campione} taken at {punto_prelievo} in province {provincia_punto_prelievo}, city {comune_punto_prelievo} - (geographical coordinates: {latitudine}-{longitudine})" ; rr:language "en" ]
+    rr:objectMap [ rr:template "Water sample {id_campione} taken at {punto_prelievo} in province {provincia_punto_prelievo}, city {comune_punto_prelievo} - (geographical coordinates: {latitudine}-{longitudine})" ; rr:termType rr:Literal ; rr:language "en" ]
   ];
   rr:predicateObjectMap [
      rr:predicate rdfs:label ;
-     rr:objectMap [ rr:template "Campione {id_campione} preso presso il punto prelievo {punto_prelievo} in provincia di {provincia_punto_prelievo}, comune {comune_punto_prelievo} - (coordinate geografiche: {latitudine}-{longitudine})" ; rr:language "it" ]
+     rr:objectMap [ rr:template "Campione {id_campione} preso presso il punto prelievo {punto_prelievo} in provincia di {provincia_punto_prelievo}, comune {comune_punto_prelievo} - (coordinate geografiche: {latitudine}-{longitudine})" ;rr:termType rr:Literal ;  rr:language "it" ]
   ];
   rr:predicateObjectMap [
     rr:predicate w-mon:istakenAt ;

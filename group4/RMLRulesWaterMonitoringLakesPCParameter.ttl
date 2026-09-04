@@ -575,29 +575,6 @@ rr:termType rr:IRI ;
  ].
 
 
-# #########################
-# # UNIT OF MEASURE FOR DEPTH
-# #########################
-# <#UnitOfMeasureForDepth> a rr:TriplesMap;
-# rml:logicalSource <#LogicalSourceLakes>;
-# rr:subjectMap [
-#   rr:constant "https://w3id.org/italia/lombardia/data/unit-of-measure/metro";
-#   rr:class ispra-top:UnitOfMeasure
-# ] ;
-# rr:predicateObjectMap [
-#    rr:predicate rdfs:label ;
-#    rr:objectMap [ rr:constant "Unit of measure m" ; rr:language "en" ]
-# ];
-# rr:predicateObjectMap [
-#    rr:predicate rdfs:label ;
-#    rr:objectMap [ rr:constant "Unità di misura metro" ; rr:language "it" ]
-# ];
-# rr:predicateObjectMap [
-#    rr:predicate ispra-top:name ;
-#    rr:objectMap [ rr:constant "metro" ; rr:language "it" ]
-# ].
-
-
 
 # ##############
 # ### OBSERVATION VALUE OBJECT MAPPING IF RANGE
@@ -1119,7 +1096,7 @@ fnml:functionValue [
 <#CityMapping2> a rr:TriplesMap ;
 rml:logicalSource <#LogicalSourceCITYRDF> ;
 rr:subjectMap [
-  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID}-({starttime})" ;  rr:termType rr:IRI ;
+  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID}-({starttime})" ;
 ].
 
 # ##############################
@@ -1129,7 +1106,7 @@ rr:subjectMap [
 <#ProvinceMapping2> a rr:TriplesMap ;
 rml:logicalSource <#LogicalSourcePROVINCERDF> ;
 rr:subjectMap [
-  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces/{ID}" ;  rr:termType rr:IRI ;
+  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces/{ID}" ;
 ].
 ###################################################################################
 

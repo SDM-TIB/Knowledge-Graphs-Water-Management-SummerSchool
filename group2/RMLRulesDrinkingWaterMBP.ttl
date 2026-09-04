@@ -411,19 +411,19 @@ rr:predicateObjectMap [
   ];
    rr:predicateObjectMap [
       rr:predicate rdfs:label ;
-      rr:objectMap [ rr:template "Area of the sampling point {punto_prelievo} in province {provincia_punto_prelievo}, city {comune_punto_prelievo} - (geographical coordinates: {latitudine}-{longitudine})" ; rr:language "en" ]
+      rr:objectMap [ rr:template "Area of the sampling point {punto_prelievo} in province {provincia_punto_prelievo}, city {comune_punto_prelievo} - (geographical coordinates: {latitudine}-{longitudine})" ; rr:termType rr:Literal ; rr:language "en" ]
     ];
     rr:predicateObjectMap [
        rr:predicate rdfs:label ;
-       rr:objectMap [ rr:template "Area del punto prelievo {punto_prelievo} in provincia di {provincia_punto_prelievo}, comune {comune_punto_prelievo} - (coordinate geografiche: {latitudine}-{longitudine})" ; rr:language "it" ]
+       rr:objectMap [ rr:template "Area del punto prelievo {punto_prelievo} in provincia di {provincia_punto_prelievo}, comune {comune_punto_prelievo} - (coordinate geografiche: {latitudine}-{longitudine})" ; rr:termType rr:Literal ; rr:language "it" ]
     ];
     rr:predicateObjectMap [
        rr:predicate ispra-top:name , l0:name ;
-       rr:objectMap [ rr:template "Area del punto prelievo {punto_prelievo} in provincia di {provincia_punto_prelievo}, comune {comune_punto_prelievo} - (coordinate geografiche: {latitudine}-{longitudine})" ; rr:language "it" ]
+       rr:objectMap [ rr:template "Area del punto prelievo {punto_prelievo} in provincia di {provincia_punto_prelievo}, comune {comune_punto_prelievo} - (coordinate geografiche: {latitudine}-{longitudine})" ; rr:termType rr:Literal ; rr:language "it" ]
     ];
     rr:predicateObjectMap [
        rr:predicate ispra-top:name , l0:name ;
-       rr:objectMap [ rr:template "Area of the sampling point {punto_prelievo} in province {provincia_punto_prelievo}, city {comune_punto_prelievo} - (geographical coordinates: {latitudine}-{longitudine})" ; rr:language "en" ]
+       rr:objectMap [ rr:template "Area of the sampling point {punto_prelievo} in province {provincia_punto_prelievo}, city {comune_punto_prelievo} - (geographical coordinates: {latitudine}-{longitudine})" ; rr:termType rr:Literal ; rr:language "en" ]
     ].
 
 ################################################

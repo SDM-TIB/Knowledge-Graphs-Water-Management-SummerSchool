@@ -410,11 +410,11 @@ rr:subjectMap [
 ] ;
 rr:predicateObjectMap [
   rr:predicate rdfs:label;
-  rr:objectMap [ rr:template "{CLASSIFICAZIONE da REPORT}" ; rr:language "it" ]
+  rr:objectMap [ rr:template "{CLASSIFICAZIONE da REPORT}" ; rr:termType rr:Literal; rr:language "it" ]
 ];
 rr:predicateObjectMap [
   rr:predicate skos:prefLabel , ispra-top:name, l0:name ;
-  rr:objectMap [ rr:template "{CLASSIFICAZIONE da REPORT}" ; rr:language "it" ]
+  rr:objectMap [ rr:template "{CLASSIFICAZIONE da REPORT}" ; rr:termType rr:Literal; rr:language "it" ]
 ];
 rr:predicateObjectMap [
   rr:predicate skos:inScheme;
