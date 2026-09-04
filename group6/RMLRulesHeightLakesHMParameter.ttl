@@ -739,8 +739,7 @@ rr:termType rr:IRI ;
 <#PointMapping> a rr:TriplesMap ;
 rml:logicalSource <#LogicalSourceCITYRDF> ;
 rr:subjectMap [
-  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID}-({starttime})" ;  rr:termType rr:IRI ;
-].
+  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID}-({starttime})"].
 
 ##########################
 ##URI SAMPLE MAPPING

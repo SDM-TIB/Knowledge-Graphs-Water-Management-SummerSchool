@@ -99,7 +99,6 @@ rml:logicalSource <#LogicalSourceWeatherSensorData>;
 rml:logicalSource <#LogicalSourceFeatureOfInterest> ;
 rr:subjectMap [
       rr:template "https://w3id.org/whow/onto/weather-monitoring/{FeatureOfInterest}";
-      rr:termType rr:IRI
 ] .
 
 <#WeatherObservablePropMapping>
@@ -177,107 +176,8 @@ rr:predicateObjectMap [
 ];
 rr:predicateObjectMap [
   rr:predicate ispra-emf:isHostedBy ;
-  rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/weather-station/{IdStazione}" ; rr:termType rr:IRI ]
+  rr:objectMap [ rr:template "https://w3id.org/italia/lombardia/data/weather-station/{IdStazione}" ; ]
 ].
-# rr:predicateObjectMap [
-#   rr:predicate wh-mon:hasValidityPeriod ;
-#   rr:objectMap <#ValidityPeriodURI>
-# ].
-
-# <#ValidityPeriodURI>
-# rr:termType rr:IRI;
-# fnml:functionValue [
-#  rr:predicateObjectMap [
-#    rr:predicate fno:executes ;
-#    rr:objectMap [ rr:constant grel:array_join ]
-#  ] ;
-#  rr:predicateObjectMap [
-#   rr:predicate grel:p_array_a ;
-#   rr:objectMap  [ rr:constant "https://w3id.org/italia/lombardia/data/time-interval"]
-#  ];
-#  rr:predicateObjectMap [
-#   rr:predicate grel:p_array_a ;
-#   rr:objectMap  <#MD5ValidityPeriod>
-#  ];
-#  rr:predicateObjectMap [
-#   rr:predicate grel:p_string_sep ;
-#   rr:objectMap [ rr:constant "/" ]
-#  ]
-# ].
-#
-# <#MD5ValidityPeriod>
-# fnml:functionValue [
-#      rr:predicateObjectMap [
-#        rr:predicate fno:executes ;
-#        rr:objectMap [ rr:constant grel:string_md5 ]
-#      ];
-#      rr:predicateObjectMap [
-#        rr:predicate grel:valueParameter ;
-#        rr:objectMap <#joinDataStartDataStop>
-#      ]
-# ].
-#
-# <#joinDataStartDataStop>
-# fnml:functionValue [
-#  rr:predicateObjectMap [
-#    rr:predicate fno:executes ;
-#    rr:objectMap [ rr:constant grel:array_join ]
-#  ] ;
-#  rr:predicateObjectMap [
-#   rr:predicate grel:p_array_a ;
-#   rr:objectMap  [rml:reference "datastart"]
-#  ];
-#  rr:predicateObjectMap [
-#   rr:predicate grel:p_array_a ;
-#   rr:objectMap  [rml:reference "datastop"]
-#  ];
-#  rr:predicateObjectMap [
-#   rr:predicate grel:p_string_sep ;
-#   rr:objectMap [ rr:constant "" ]
-#  ];
-# ].
-
-
-##### Validity Period mapping ####
-# <#ValidityPeriodMapping> a rr:TriplesMap ;
-# rml:logicalSource <#LogicalSourceWeatherStations> ;
-# rr:subjectMap [
-#   fnml:functionValue [
-#    rr:predicateObjectMap [
-#      rr:predicate fno:executes ;
-#      rr:objectMap [ rr:constant grel:array_join ]
-#    ] ;
-#    rr:predicateObjectMap [
-#     rr:predicate grel:p_array_a ;
-#     rr:objectMap  [ rr:constant "https://w3id.org/italia/lombardia/data/time-interval"]
-#    ];
-#    rr:predicateObjectMap [
-#     rr:predicate grel:p_array_a ;
-#     rr:objectMap  <#MD5ValidityPeriod>
-#    ];
-#    rr:predicateObjectMap [
-#     rr:predicate grel:p_string_sep ;
-#     rr:objectMap [ rr:constant "/" ]
-#    ]
-#   ];
-#   rr:class ti:TimeInterval
-# ] ;
-# rr:predicateObjectMap [
-#   rr:predicate rdfs:label ;
-#   rr:objectMap [ rr:template "Time Interval: {datastart} - {datastop}" ;rr:termType rr:Literal; rr:language "en" ]
-# ];
-# rr:predicateObjectMap [
-#   rr:predicate rdfs:label ;
-#   rr:objectMap [ rr:template "Intervallo di tempo: {datastart} - {datastop}" ; rr:termType rr:Literal; rr:language "it" ]
-# ] ;
-# rr:predicateObjectMap [
-#   rr:predicate ti:startDate ;
-#   rr:objectMap [rml:referenee "datastart" ; rr:datatype xsd:dateTime ]
-# ] ;
-# rr:predicateObjectMap [
-#   rr:predicate ti:endDate ;
-#   rr:objectMap [rml:referenee "datastop" ; rr:datatype xsd:dateTime ]
-# ] .
 
 ##### Weather Station Mapping #######
 <#WeatherStationMapping> a rr:TriplesMap ;
@@ -321,22 +221,7 @@ rr:predicateObjectMap [
 rml:logicalSource <#LogicalSourcePROVINCERDF> ;
 rr:subjectMap [
     rr:template "https://w3id.org/italia/lombardia/data/province/{ID}";
-    rr:termType rr:IRI
 ] .
-
-
- #
- #
- # # ##############################
- # # ## PROVINCE LINKING
- # # ##############################
- #
- # <#ProvinceMapping> a rr:TriplesMap ;
- # rml:logicalSource <#LogicalSourcePROVINCERDF> ;
- # rr:subjectMap [
- #   rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/provinces/{ID.value}" ;  rr:termType rr:IRI ;
- # ].
-
 
 ##### Geometry Mapping #####
 <#GeometryMapping> a rr:TriplesMap ;

@@ -911,7 +911,7 @@ fnml:functionValue [
 <#CityMappingForDWMBP> a rr:TriplesMap ;
 rml:logicalSource <#LogicalSourceCITYRDF> ;
 rr:subjectMap [
-  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID.value}-({starttime.value})" ;  rr:termType rr:IRI ;
+  rr:template "https://w3id.org/italia/controlled-vocabulary/territorial-classifications/cities/{ID.value}-({starttime.value})" ;
 ].
 
 
