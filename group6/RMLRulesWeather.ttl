@@ -66,7 +66,7 @@ rml:logicalSource <#LogicalSourceWeatherSensorData>;
   ];
   rr:predicateObjectMap [
     rr:predicate rdfs:label ;
-    rr:objectMap [ rr:template "Osservazione per il sensore {IdSensore} in data {Data} con valore {Valore} {unita_di_misura} - ATS {codice_ats}: {nome_ats}" ; rr:language "it" ]
+    rr:objectMap [ rr:template "Osservazione per il sensore {IdSensore} in data {Data} con valore {Valore} {unita_di_misura} - ATS {codice_ats}: {nome_ats}"; rr:termType rr:Literal ; rr:language "it" ]
   ];
   rr:predicateObjectMap [
     rr:predicate wh-mon:hasResultTime ;
