@@ -1,0 +1,100 @@
+?s	?p1	?o1
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: RE0151039UM001. Geographical coordinates: 45.40109-9.02418"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: RE0151039UM001. Coordinate geografiche: 45.40109-9.02418"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.40109-9.02418>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<https://w3id.org/italia/onto/CLVfullAddress>	V.le Lombardia
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030321>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/015>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE0151039UM001>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/015103>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: PO0150160U0002. Geographical coordinates: 45.5416487-9.4451246"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: PO0150160U0002. Coordinate geografiche: 45.5416487-9.4451246"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.5416487-9.4451246>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<https://w3id.org/italia/onto/CLVfullAddress>	DONATORI SANGUE, Bellinzago Lombardo
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030321>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/015>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0150160U0002>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/015016>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: PO0151400U0085. Geographical coordinates: 45.3638397-9.3205578"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: PO0151400U0085. Coordinate geografiche: 45.3638397-9.3205578"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.3638397-9.3205578>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<https://w3id.org/italia/onto/CLVfullAddress>	via Lombardia, Melegnano
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030321>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/015>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151400U0085>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/015140>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: PO0151139U0024. Geographical coordinates: 45.50962-8.84535"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: PO0151139U0024. Coordinate geografiche: 45.50962-8.84535"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.50962-8.84535>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<https://w3id.org/italia/onto/CLVfullAddress>	Via Lombardia
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030321>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/015>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151139U0024>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/015113>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: PO0151959U0008. Geographical coordinates: 45.39565-9.28825"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: PO0151959U0008. Coordinate geografiche: 45.39565-9.28825"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.39565-9.28825>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<https://w3id.org/italia/onto/CLVfullAddress>	via Lombardia tr, San Giuliano Milanes
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030321>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/015>
+<https://w3id.org/italia/lombardia/data/sampling-point/PO0151959U0008>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/015195>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: RE016199XU0002. Geographical coordinates: 45.87223-9.71956999"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: RE016199XU0002. Coordinate geografiche: 45.87223-9.71956999"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.87223-9.71956999>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<https://w3id.org/italia/onto/CLVfullAddress>	Piazzale Lombardia - Loc. Corone
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030325>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/016>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE016199XU0002>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/016199>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: RE097074XU0003. Geographical coordinates: 45.744837-9.3745912"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: RE097074XU0003. Coordinate geografiche: 45.744837-9.3745912"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.744837-9.3745912>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<https://w3id.org/italia/onto/CLVfullAddress>	fontanella pubblica parco giochi via Lombardia, Santa Maria Hoè
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030324>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/097>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE097074XU0003>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/097074>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: RE020021XU0001. Geographical coordinates: 45.15347-10.71852"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: RE020021XU0001. Coordinate geografiche: 45.15347-10.71852"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.15347-10.71852>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<https://w3id.org/italia/onto/CLVfullAddress>	Piazza Lombardelli - Loc. Buscoldo, Curtatone
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030327>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/020>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE020021XU0001>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/020021>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: RE012123XU0005. Geographical coordinates: 45.6389064-8.7102698"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: RE012123XU0005. Coordinate geografiche: 45.6389064-8.7102698"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.6389064-8.7102698>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<https://w3id.org/italia/onto/CLVfullAddress>	Via Leonardo da Vinci , Somma Lombardo
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030322>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/012>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0005>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/012123>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: RE012071XU0004. Geographical coordinates: 45.78243-8.76857"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: RE012071XU0004. Coordinate geografiche: 45.78243-8.76857"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.78243-8.76857>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<https://w3id.org/italia/onto/CLVfullAddress>	Viale Rimembranze , Galliate Lombardo
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030322>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/012>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012071XU0004>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/012071>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/whow/onto/water-monitoring/SamplingPoint>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<https://w3id.org/italia/env/onto/top/Location>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Sampling point: RE012123XU0002. Geographical coordinates: 45.6606015-8.6850107"@en
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<http://www.w3.org/2000/01/rdf-schema#label>	"Punto prelievo: RE012123XU0002. Coordinate geografiche: 45.6606015-8.6850107"@it
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<https://w3id.org/italia/env/onto/place/hasGeometry>	<https://w3id.org/italia/lombardia/data/geometry/45.6606015-8.6850107>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<https://w3id.org/italia/onto/CLVfullAddress>	Via Giovanni XXIII , Somma Lombardo
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<https://w3id.org/whow/onto/health-monitoring/isUnderResponsibility>	<https://w3id.org/italia/lombardia/data/health-agency/030322>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<https://w3id.org/italia/env/onto/place/hasProvince>	<https://w3id.org/italia/lombardia/data/province/012>
+<https://w3id.org/italia/lombardia/data/sampling-point/RE012123XU0002>	<https://w3id.org/italia/env/onto/place/hasMunicipality>	<https://w3id.org/italia/lombardia/data/city/012123>

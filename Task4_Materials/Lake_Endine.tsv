@@ -1,0 +1,84 @@
+?subject	?property	?value
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2002/07/owl#Thing>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Place>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Location>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/BodyOfWater>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/Lake>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>	<http://dbpedia.org/ontology/NaturalPlace>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://yago-knowledge.org/resource/Lake_Endine>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://rdf.freebase.com/ns/m.0b76_xt>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://viaf.org/viaf/237803456>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://www.wikidata.org/entity/Q917288>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://de.dbpedia.org/resource/Lago_di_Endine>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://it.dbpedia.org/resource/Lago_di_Endine>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://nl.dbpedia.org/resource/Meer_van_Endine>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://commons.dbpedia.org/resource/Lago_d\u0027Endine>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://fr.dbpedia.org/resource/Lac_d\u0027Endine>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://et.dbpedia.org/resource/Endine_j\u00E4rv>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://d-nb.info/gnd/4255128-6>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://sws.geonames.org/3177394/>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://arz.dbpedia.org/resource/\u0628\u062D\u064A\u0631\u0647_\u0627\u0646\u062F\u064A\u0646>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<http://lmo.dbpedia.org/resource/Lag_de_Enden>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2002/07/owl#sameAs>	<https://global.dbpedia.org/id/54VYv>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lake Endine"@en
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lago di Endine"@de
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lac d'Endine"@fr
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2000/01/rdf-schema#label>	"Lago di Endine"@it
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2000/01/rdf-schema#label>	"Meer van Endine"@nl
+<http://dbpedia.org/resource/Lake_Endine>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Lakes_of_Lombardy>
+<http://dbpedia.org/resource/Lake_Endine>	<http://purl.org/dc/terms/subject>	<http://dbpedia.org/resource/Category:Province_of_Bergamo>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Canoeing>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Italy>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Lombardy>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Province_of_Bergamo>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Ice>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Fishing>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Kayaking>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Suardi_(dynasty)>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Bianzano>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Endine_Gaiano>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Monasterolo_del_Castello>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Ranzanico>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Spinone_al_Lago>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Sailing>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Windsurfing>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Reed_(plant)>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Category:Lakes_of_Lombardy>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Category:Province_of_Bergamo>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Pike_(fish)>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/Cherio_River>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/File:Lago_d\u0027Endine_da_Faisecco_di_Gaverina.jpg>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/wikiPageWikiLink>	<http://dbpedia.org/resource/File:Lagodendine0001.jpg>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"liqen"@sq
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"Ɔtadeɛ"@tw
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"lac italien"@fr
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"meer in Italië"@nl
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"אגם באיטליה"@iw
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"بحيرة في إيطاليا"@ar
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"意大利湖泊"@zh
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"lake in Lombardy, Italy"@en
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"lago italiano"@it
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/description>	"See in der Lombardei, Italien"@de
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2003/01/geo/wgs84_pos#lat>	45.78333282470703
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2003/01/geo/wgs84_pos#long>	9.933333396911621
+<http://dbpedia.org/resource/Lake_Endine>	<http://xmlns.com/foaf/0.1/depiction>	<http://commons.wikimedia.org/wiki/Special:FilePath/Lago-di-Endine-flora-spontanea-03.jpg>
+<http://dbpedia.org/resource/Lake_Endine>	<http://xmlns.com/foaf/0.1/depiction>	<http://commons.wikimedia.org/wiki/Special:FilePath/Lago_d\u0027Endine_da_Faisecco_di_Gaverina.jpg>
+<http://dbpedia.org/resource/Lake_Endine>	<http://xmlns.com/foaf/0.1/depiction>	<http://commons.wikimedia.org/wiki/Special:FilePath/Lago_endine_canna_palustre_Phragmites_australis_07.jpg>
+<http://dbpedia.org/resource/Lake_Endine>	<http://xmlns.com/foaf/0.1/depiction>	<http://commons.wikimedia.org/wiki/Special:FilePath/Lago_endine_canneto_06.jpg>
+<http://dbpedia.org/resource/Lake_Endine>	<http://xmlns.com/foaf/0.1/depiction>	<http://commons.wikimedia.org/wiki/Special:FilePath/Lagodendine0001.jpg>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/ontology/thumbnail>	<http://commons.wikimedia.org/wiki/Special:FilePath/Lagodendine0001.jpg?width=300>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Bergamo-geo-stub>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Authority_control>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Coord>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Div_col>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Div_col_end>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Langx>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Reflist>
+<http://dbpedia.org/resource/Lake_Endine>	<http://dbpedia.org/property/wikiPageUsesTemplate>	<http://dbpedia.org/resource/Template:Short_description>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/ns/prov#wasDerivedFrom>	<http://en.wikipedia.org/wiki/Lake_Endine?oldid=1276752973&ns=0>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.georss.org/georss/point>	"45.78333333333333 9.933333333333334"
+<http://dbpedia.org/resource/Lake_Endine>	<http://purl.org/linguistics/gold/hypernym>	<http://dbpedia.org/resource/Lake>
+<http://dbpedia.org/resource/Lake_Endine>	<http://xmlns.com/foaf/0.1/isPrimaryTopicOf>	<http://en.wikipedia.org/wiki/Lake_Endine>
+<http://dbpedia.org/resource/Lake_Endine>	<http://www.w3.org/2003/01/geo/wgs84_pos#geometry>	"POINT(9.9333333969116 45.783332824707)"^^<http://www.opengis.net/ont/geosparql#wktLiteral>
+<http://dbpedia.org/resource/Lake_Endine>	<http://schema.org/sameAs>	<http://viaf.org/viaf/237803456>
