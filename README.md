@@ -232,7 +232,7 @@ The exact mappings will depend on the structure and semantics of each group's da
 
 # 🧠 5. Generate the Knowledge Graph
 
-A Jupyter notebook will be provided to demonstrate how to execute the mappings and generate an RDF Knowledge Graph.
+A Jupyter notebook will be provided to demonstrate how to execute the mappings and generate an RDF Knowledge Graph. Please download or run each group's Jupyter notebooks from the following repo: [Notebooks for Creation for Water Health Knowledge Graph](https://service.tib.eu/ldmservice/service/notebooks-for-creation-for-water-health-knowledge-graph)
 
 The notebook will be available under:
 
